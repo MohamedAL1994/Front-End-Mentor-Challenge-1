@@ -1,0 +1,49 @@
+I have a few rules for this project:
+
+  - CSS positioning is done through Flexbox.
+  - BEM
+  - GIT
+-------------------------------------------------
+                Style Guide
+-------------------------------------------------
+- This is the background color for the data-block -->
+
+  { linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
+    linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  }
+
+- Line height is 1.5 * 16px // but why does line-height of 2 makes sense ?
+  According to the multiplayer law, 1.5 should exactly equal 24px but the results are different.
+
+- Head 'We're color: #C59B9C Pink
+- Body Text color: #BD9B9A Pink
+- Black head color: #433A3B;
+
+                -------------------
+                    Dimensions!!!!
+
+- Space between logo and content is 140px;
+
+- mobile banner image dimensions are default === 375w * 250h
+
+- Desktop banner image dimensions are default === 610w * 800h
+
+- Heading-text margin-bottom is 40px// Work this number out with the line-height
+
+- body-text margin-bottom is 50px 
+
+- Space between border and text in the e-mail address input field is 20px top and bottom
+
+- Space on the left side of the e-mail field placeholder is 30px 
+
+- Space on the right side of the e-mail field placeholder is 210px maybe
+
+- 15px under the borders to the warning message
+
+- The warning exclamation icon is 15px pixel away from the left side of the button
+
+- 15h by 40w are the dimensions of the button
+
+- The button does have a drop-shadow
+
+- Content width is 450px
