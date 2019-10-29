@@ -1,22 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
-  
+
   <title>Frontend Mentor | Base Apparel coming soon page</title>
   <link rel="stylesheet" href="main.css">
 
 </head>
-<body>
-<h2>We're coming soon</h2>
 
-  <p>Hello fellow shoppers! We're currently building our new fashion store. 
-  Add your email below to stay up-to-date with announcements and our launch deals.
-
-  Email Address
-  </p> 
+<body class="coming-soon-body">
+  <section class="data-block">
+    <header class="head">
+      <img src="assets/images/logo.svg" alt="logo" class="logo"> <!--  Height and width dimensions are expected -->
+      <img src="assets/images/hero-mobile.jpg" alt="a nice-looking woman" class="banner"><!--  Height and width dimensions are expected ++ display:none for now -->
+    </header>
+    <section class="content">
+      <h1 class="content__head"><span class="thin--pink">We're</span> coming soon</h1>
+      <p>Hello fellow shoppers! We're currently building our new fashion store.Add your email below to stay up-to-date with announcements and our launch deals.</p>
+      <form class="form" method="post">
+        <div class="form__inner"> <!-- Flexbox Magic Here -->
+          <input class="form__input" type="email" placeholder="Email Address" required>
+          <button class="button">
+            <img class="button__arrow-image" src="assets/images/icon-arrow.svg">
+          </button>
+        </div>
+      </form>
+    </section>
+  </section>
+  <section class="image--block">
+    <img class="big-ass-image" src="assets/images/hero-desktop.jpg" alt="a very beautiful woman, I am secretly hoping she is not a lesbian, cause she kinda looks like one"> 
+  </section>
+  <script src="page.js"></script>
 </body>
+
 </html>
