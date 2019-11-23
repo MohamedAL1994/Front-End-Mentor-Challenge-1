@@ -8,8 +8,8 @@ I have a few rules for this project:
 -------------------------------------------------
 - This is the background color for the data-block -->
 
-  { linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
-    linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  { linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)), this gradient is for the Bg
+    linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%)); This graident is for the btn
   }
 
 - Line height is 1.5 * 16px // but why does line-height of 2 makes sense ?

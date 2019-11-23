@@ -1,0 +1,49 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  height: 100%;
+}
+.body { /* Body Block */
+  font-family: Josefin Sans;
+
+  line-height: 2;
+  height: 100%;
+
+  display: flex;
+  justify-content: space-between;
+} 
+.data-block {
+  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
+            linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+}
+
+.head {}
+.head__logo {}
+.head__banner {
+  display: none;
+}
+
+.content {}
+
+.content__head {}
+.light--pink-text {} 
+
+.content__paragraph {}
+
+.form {}
+.form__input {}
+.form__button {}
+.form__button-arrow {}
+
+.image-block {
+  display: flex;
+  justify-content: flex-end;
+
+}
+.image-block__img {
+  display: block;
+
+}
