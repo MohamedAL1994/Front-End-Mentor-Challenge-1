@@ -13,11 +13,18 @@ html {
   height: 100%;
 
   display: flex;
-  justify-content: space-between;
+  flex-direction: row;
+}
+.container {
+  width: 450px;
+  margin: 0 auto;
 } 
 .data-block {
-  background: linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
-            linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
+  flex-basis: 60%;
+  background: 
+    url('assets/images/bg-pattern-desktop.svg'),
+    linear-gradient(135deg, hsl(0, 0%, 100%), hsl(0, 100%, 98%)),
+    linear-gradient(135deg, hsl(0, 80%, 86%), hsl(0, 74%, 74%));
 }
 
 .head {}
@@ -39,11 +46,20 @@ html {
 .form__button-arrow {}
 
 .image-block {
-  display: flex;
-  justify-content: flex-end;
-
+/*  height: 100%;*/
+  width: 44%;
+/*  flex-basis: 40%;*/
+/*  margin-left: auto;*/
+  background: url('assets/images/hero-desktop.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
+
+/*
 .image-block__img {
   display: block;
-
+  height: auto;
+  width: 100%;
 }
+*/

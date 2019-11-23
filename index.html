@@ -8,7 +8,7 @@
   <link rel="icon" type="image/png" sizes="32x32" href="assets/images/favicon-32x32.png">
 
   <title>Frontend Mentor | Base Apparel coming soon page</title>
-<!--  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap" rel="stylesheet">-->
+  <!--  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600&display=swap" rel="stylesheet">-->
   <link rel="stylesheet" href="main.css">
 
 </head>
@@ -16,24 +16,29 @@
 <body class="body">
   <section class="data-block">
     <header class="head">
-      <img src="assets/images/logo.svg" alt="logo" class="head__logo"> <!--  Height and width dimensions are expected -->
-      <img src="assets/images/hero-mobile.jpg" alt="a nice-looking woman" class="head__banner"><!--  Height and width dimensions are expected ++ display:none for now -->
+      <div class="container">
+        <img src="assets/images/logo.svg" alt="logo" class="head__logo"> <!--  Height and width dimensions are expected -->
+        <img src="assets/images/hero-mobile.jpg" alt="a nice-looking woman" class="head__banner"><!--  Height and width dimensions are expected ++ display:none for now -->
+      </div>
     </header>
     <section class="content">
-      <h1 class="content__head"><span class="light--pink-text">We're</span> coming soon</h1>
-      <p class="content__paragraph">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
-      <form class="form" method="post">
-        <div class="form__inner"> <!-- Flexbox Magic Here -->
-          <input class="form__input" type="email" placeholder="Email Address">
-          <button class="form__button">
-            <img class="form__button-arrow" src="assets/images/icon-arrow.svg">
-          </button>
-        </div>
-      </form>
+      <div class="container">
+        <h1 class="content__head"><span class="light--pink-text">We're</span> coming soon</h1>
+        <p class="content__paragraph">Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.</p>
+        <form class="form" method="post">
+          <div class="form__inner">
+            <!-- Flexbox Magic Here -->
+            <input class="form__input" type="email" placeholder="Email Address">
+            <button class="form__button">
+              <img class="form__button-arrow" src="assets/images/icon-arrow.svg">
+            </button>
+          </div>
+        </form>
+      </div>
     </section>
   </section>
   <section class="image-block">
-    <img class="image-block__img" src="assets/images/hero-desktop.jpg" alt="a very beautiful woman, I am secretly hoping she is not a lesbian, cause she kinda looks like one"> 
+<!--    <img class="image-block__img" width="610" src="assets/images/hero-desktop.jpg" alt="a very beautiful woman, I am secretly hoping she is not a lesbian, cause she kinda looks like one">-->
   </section>
   <script src="page.js"></script>
 </body>
